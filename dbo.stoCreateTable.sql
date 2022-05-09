@@ -20,7 +20,7 @@ CREATE PROCEDURE [dbo].[StoCreateTable] @Schema             NVARCHAR(255),
                                     @CreatedBy          NVARCHAR(50) 
 /************************************************************************************
 Object Name: dbo.StoCreateTable
-Created By:  Michael Weber
+Created By:  Israel Alafe
 
 Parameter List:
     @param1 datatype
