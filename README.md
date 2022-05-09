@@ -1,5 +1,6 @@
 # SqlScripts
-Database Design Considerations
+
+#### Database Design Considerations
 Database Model - Build tables that balance the number of joins (normalization) versus a reasonable amount of denormalization.  If you want the application to be highly normalized for the opportunity to extend it for more generic needs, be sure you understand the trade-off of having to join a potentially large number of tables.  On the other side of the coin, if your database only has a handful of tables that are 200+ columns with a great deal of duplicate data, you may want to strike a balance.
 SQL Server 2005 Exposed = Data Modeling Tools
 Primary Keys - Ensure a column in each table is designated as the primary key and select an appropriate data type such as an integer.
